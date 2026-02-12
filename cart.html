@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Store | Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="inner-page">
+
+<nav>
+  <h2 class="logo">MyStore</h2>
+  <a href="index.html">Home</a>
+  <a href="products.html">Products</a>
+  <a href="cart.html">Cart</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<h1>Your Shopping Cart</h1>
+<p>
+  The shopping cart allows customers to review the products they have
+  selected before completing their purchase. This page provides a clear
+  summary of all chosen items and the total cost.
+  Customers can easily manage their cart by reviewing items and making
+  changes before proceeding further. This helps ensure a confident
+  and informed purchasing decision.
+</p>
+
+<section class="cart-section">
+  <ul id="cart"></ul>
+  <h2 id="total">Total: $0</h2>
+</section>
+
+<div class="cart-actions">
+  <button class="clear-btn" onclick="clearCart()">Clear Cart</button>
+  <a href="products.html" class="btn">Continue Shopping</a>
+</div>
+
+<section>
+  <h3>Cart Information</h3>
+  <p>
+    Items added to the cart are stored using JavaScript
+    LocalStorage, so they remain available even after
+    refreshing the page.
+  </p>
+</section>
+
+<footer>
+  <p style="color: white;">Thank you for shopping with us.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Store | Products</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="inner-page">
+
+<nav>
+  <h2 class="logo">MyStore</h2>
+  <a href="index.html">Home</a>
+  <a href="products.html">Products</a>
+  <a href="cart.html">Cart</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<h1>Our Products</h1>
+<p>
+  On this page, customers can browse a wide selection of electronic products
+  and accessories available in our store. Each product includes a short
+  description and price to help customers make the right choice.
+  Our products are carefully selected to meet everyday needs, whether
+  for work, study, communication, or entertainment. We aim to offer
+  high-quality items that provide value for money.
+</p>
+
+<div class="products">
+
+  <!-- Electronics -->
+  <div class="product">
+    <h3>Smart Phone</h3>
+    <p>Latest smartphone with high performance.</p>
+    <p><strong>Price:</strong> $300</p>
+    <button onclick="addToCart('Smart Phone',300)">Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <h3>Laptop</h3>
+    <p>Perfect for work, study, and entertainment.</p>
+    <p><strong>Price:</strong> $800</p>
+    <button onclick="addToCart('Laptop',700)">Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <h3>Tablet</h3>
+    <p>Portable device for reading and browsing.</p>
+    <p><strong>Price:</strong> $250</p>
+    <button onclick="addToCart('Tablet',250)">Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <h3>Smart Watch</h3>
+    <p>Track your fitness and notifications.</p>
+    <p><strong>Price:</strong> $120</p>
+    <button onclick="addToCart('Smart Watch',120)">Add to Cart</button>
+  </div>
+
+  <!-- Accessories -->
+  <div class="product">
+    <h3>Headphones</h3>
+    <p>Clear sound and comfortable design.</p>
+    <p><strong>Price:</strong> $50</p>
+    <button onclick="addToCart('Headphones',50)">Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <h3>Wireless Mouse</h3>
+    <p>Smooth and responsive mouse.</p>
+    <p><strong>Price:</strong> $25</p>
+    <button onclick="addToCart('Wireless Mouse',25)">Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <h3>Keyboard</h3>
+    <p>Comfortable keyboard for daily use.</p>
+    <p><strong>Price:</strong> $40</p>
+    <button onclick="addToCart('Keyboard',40)">Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <h3>Power Bank</h3>
+    <p>Charge your devices on the go.</p>
+    <p><strong>Price:</strong> $35</p>
+    <button onclick="addToCart('Power Bank',35)">Add to Cart</button>
+  </div>
+
+</div>
+
+<p id="message"></p>
+
+<footer>
+  <p style="color: white;">More products coming soon...</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

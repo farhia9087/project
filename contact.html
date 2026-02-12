@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Store | Contact</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="inner-page">
+
+<nav>
+  <h2 class="logo">MyStore</h2>
+  <a href="index.html">Home</a>
+  <a href="products.html">Products</a>
+  <a href="cart.html">Cart</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<h1>Contact Us</h1>
+ <p>
+  The contact page allows customers to get in touch with our support team
+  for questions, feedback, or general inquiries. We value customer
+  communication and aim to provide helpful responses.
+  Customers are encouraged to provide accurate contact details and
+  clear messages so that we can understand their needs and assist
+  them effectively.
+</p>
+
+<form onsubmit="return validateForm()">
+  <label>Name</label><br>
+  <input type="text" id="name"><br><br>
+
+  <label>Email</label><br>
+  <input type="email" id="email"><br><br>
+
+  <label>Message</label><br>
+  <textarea id="msg"></textarea><br><br>
+
+  <button type="submit">Send Message</button>
+</form>
+
+<p id="formMsg"></p>
+
+<section>
+  <h3>Our Contact Details</h3>
+  <p>Email: support@mystore.com</p>
+  <p>Phone: +252 61 0000000</p>
+</section>
+
+<footer>
+  <p style="color: white;">We will respond as soon as possible.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
